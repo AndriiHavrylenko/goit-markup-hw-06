@@ -66,7 +66,8 @@
               Эфективные решения<br />
               для вашего бизнеса
             </h1>
-            <a href="#" class="link">Заказать услугу</a>
+            <!-- <a href="#" class="link">Заказать услугу</a> -->
+            <button class="hero-button">Заказать услугу</button>
           </div>
         </section>
       </div>
@@ -472,11 +473,17 @@
           </ul>
         </div>
 
-        <form>
+        <form class="footer-form">
           <b class="footer-subtitle">подписаться на рассылку</b>
           <div class="follow">
-            <label for="E-mail">E-mail</label>
-            <input type="email" name="mail" id="E-mail" />
+            <!-- <label for="E-mail">E-mail</label> -->
+            <input
+              class="footer-input"
+              type="email"
+              name="mail"
+              id="E-mail"
+              placeholder="E-mail"
+            />
             <button class="footer-button" type="submit">
               <span class="button-title">Подписаться </span
               ><svg class="icon">
@@ -507,25 +514,55 @@
       <form class="hero-form">
         <b class="come">Оставьте свои данные, мы вам перезвоним</b>
         <div class="form-field">
-          <input class="form-input" type="text" name="user name" id="name" />
-          <label class="form-label" for="name"> Имя</label>
+          <input
+            class="form-input"
+            type="text"
+            name="user name"
+            id="name"
+            placeholder=" "
+          />
+          <label class="form-label" for="name">Имя</label>
+          <svg class="form-icon">
+            <use
+              href="./images/symbol-defs2.svg#icon-person-black-18dp-1"
+            ></use>
+          </svg>
         </div>
         <div class="form-field">
-          <input class="form-input" type="tel" name="user tel" id="tel" />
-          <label class="form-label" for="tel">Телефон</label>
+          <input
+            class="form-input"
+            type="tel"
+            name="user tel"
+            id="tel"
+            placeholder=" "
+          />
+          <label class="form-label" for="tel">Телефон </label>
+          <svg class="form-icon">
+            <use href="./images/symbol-defs2.svg#icon-phone-black-18dp-1"></use>
+          </svg>
         </div>
         <div class="form-field">
-          <input class="form-input" type="email" name="mail" id="mail" />
+          <input
+            class="form-input"
+            type="email"
+            name="mail"
+            id="mail"
+            placeholder=" "
+          />
           <label class="form-label" for="mail">Почта</label>
+          <svg class="form-icon">
+            <use href="./images/symbol-defs2.svg#icon-email-black-18dp-1"></use>
+          </svg>
         </div>
         <div class="form-comments">
-          <label class="comments" for="comment"> Коментарий</label>
           <textarea
             class="textarea"
             name="comment"
             id="comment"
             rows="6"
+            placeholder=" "
           ></textarea>
+          <label class="comments" for="comment"> Коментарий</label>
         </div>
 
         <p class="agree">
