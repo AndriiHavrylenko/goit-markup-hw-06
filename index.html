@@ -512,6 +512,11 @@
     <!-- hero form -->
     <div class="backdrop is-hidden">
       <form class="hero-form">
+        <button class="close-button">
+          <svg class="close-svg">
+            <use href="./images/symbol-defs2.svg#icon-close-black-18dp"></use>
+          </svg>
+        </button>
         <b class="come">Оставьте свои данные, мы вам перезвоним</b>
         <div class="form-field">
           <input
@@ -566,7 +571,8 @@
         </div>
 
         <p class="agree">
-          <input type="checkbox" name="policy" id="policy" />
+          <input class="checkbox" type="checkbox" name="policy" id="policy" />
+          <span class="checkbox-icon"></span>
           <label class="agree-text" for="policy"
             >Соглашаюсь с рассылкой и принимаю<a class="link" href="#"
               >Условия договора</a
