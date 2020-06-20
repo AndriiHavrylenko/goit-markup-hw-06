@@ -67,7 +67,7 @@
               для вашего бизнеса
             </h1>
             <!-- <a href="#" class="link">Заказать услугу</a> -->
-            <button class="hero-button">Заказать услугу</button>
+            <button class="hero-button" data-modal-open>Заказать услугу</button>
           </div>
         </section>
       </div>
@@ -510,9 +510,9 @@
       <p class="copyright">2020 | Developed by GoIT Students</p>
     </footer>
     <!-- hero form -->
-    <div class="backdrop is-hidden">
+    <div class="backdrop is-hidden" data-modal>
       <form class="hero-form">
-        <button class="close-button">
+        <button class="close-button" data-modal-close>
           <svg class="close-svg">
             <use href="./images/symbol-defs2.svg#icon-close-black-18dp"></use>
           </svg>
@@ -586,5 +586,6 @@
         </div>
       </form>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
